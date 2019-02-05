@@ -26,8 +26,6 @@ public:
         pid_direction_t ControllerDirection;    /** Direction of a signal */
     } pid_config_t;
 
-
-    //commonly used functions **************************************************************************
     PID(pid_config_t &);
 
     double compute(double, double);
